@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100vh;
+    background-color: #f5f6f8;
+}
+
+.BrainhubCarousel__customArrows {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.BrainhubCarousel__arrow--disable {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.BrainhubCarousel__arrows span {
+    border-color: #000000 !important;
+}
+
+.BrainhubCarousel__arrows span:hover {
+    border-color: #2190f6 !important;
+}
+
+.BrainhubCarousel__trackContainer ul {
+    padding: 2px !important;
+}
+
+*::-webkit-scrollbar {
+    height: 8px;
+    width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    border: 2px solid transparent;
+    background-color: #adadad;
+}
